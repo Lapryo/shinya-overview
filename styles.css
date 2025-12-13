@@ -70,9 +70,13 @@ table {
     width: 25%;
 }
 
-th, td, h1, h2, h3, a, p {
+th, td, h1, h2, h3, a, p, li {
     color: #c4c4c4;
     font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    padding-bottom: 15px;
 }
 
 th {
