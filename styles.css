@@ -1,0 +1,91 @@
+/* Reset default margin so layout aligns perfectly */
+body {
+  margin: 0;
+  background-color: rgb(30, 30, 30);
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.toc {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+
+  background: #0d0d0d;
+  box-sizing: border-box;
+}
+
+.divider {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  width: 3px;
+  height: 100vh;
+  background: #626262;
+}
+
+.content {
+  margin-left: 253px;
+  padding: 40px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.blockout {
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.progress-name
+{
+    width: 75%;
+}
+
+.progress-percentage
+{
+    width: 25%;
+}
+
+th, td, h1, h2, h3, a, p, li {
+    color: #c4c4c4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+th {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+td {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
